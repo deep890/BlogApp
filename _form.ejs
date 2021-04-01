@@ -1,0 +1,13 @@
+<div class="form-group">
+    <label for="exampleInputEmail1" class="text-muted">Title</label>
+    <input type="text" class="form-control" id="title" aria-describedby="emailHelp" name="title" value="<%=article.title%>">
+    <div class="form-group">
+      <label for="exampleFormControlTextarea1" class="text-muted">Description</label>
+      <textarea class="form-control" id="description" name="description"><%=article.description%></textarea>
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlTextarea1" class="text-muted">Mark down</label>
+      <textarea class="form-control" id="markdown" rows="3" name="markdown"><%=article.markdown%></textarea>
+    </div>
+  <a  class="btn btn-warning text-white" href="/">Cancel</a>
+<button type="submit" class="btn btn-primary ">Save</button>
